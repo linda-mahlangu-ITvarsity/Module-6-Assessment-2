@@ -1,35 +1,32 @@
-/* **************************************************************************** */
-/* Universal styles                                                             */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Universal styles                                              */
+/* ************************************************************* */
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
-    font-family: 'raleway' , sans-serif;
-    font-size: 19px;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     font-weight: 400;
-    color: #124568;
+    color: #363636;
 }
 
 p{
-    line-height: 190%;   
+    line-height: 190%;
 }
 
 a{
     text-decoration: none;
-    color: teal;
+    color: rgb(0, 174, 255);
 }
 
-/* **************************************************************************** */
-/* Menu                                                                         */
-/* **************************************************************************** */
-
-
+/* ************************************************************* */
+/* Menu                                                          */
+/* ************************************************************* */
 
 #menu{
-    background-color: #179654;
+    background-color: green;
     height: 100px;
-    
 }
 
 #menu ul{
@@ -48,32 +45,32 @@ a{
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 100px;
     color: #ffffff;
-    
+
     padding: 0 40px;
     border: none;
     display: block;
 }
 
 #menu a:hover{
-    background-color: #746584;
+    background-color: greenyellow;
 }
 
-/* **************************************************************************** */
-/* Header                                                                       */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Universal styles                                              */
+/* ************************************************************* */
 
 #header{
-    padding: 60px 0px 40px 0;
-    background-color: #864531;
+    padding: 50px 0px 50px 0;
+    background-color: #333333;
     text-align: center;
 }
 
 #header h1{
-    letter-spacing: 0.1em;
-    font-size: 44px;
+    letter-spacing: 0.lem;
+    font-size: 70px;
     color: #ffffff;
 }
 
@@ -82,22 +79,22 @@ a{
     color: #ffffff;
 }
 
-/* **************************************************************************** */
-/* Banner                                                                       */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Universal styles                                              */
+/* ************************************************************* */
 
 #banner{
-    height: 300px;
+    height: 500px;
 }
 
 #banner img{
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    height: 500px;
 }
 
-/* **************************************************************************** */
-/* Page                                                                         */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Page                                                          */
+/* ************************************************************* */
 
 #page{
     min-height: 400px;
@@ -108,8 +105,8 @@ a{
     margin-bottom: 12px;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 18px;
-    color: #21265a;
+    font-size: 20px;
+    color: #00b7ff;
 }
 
 /* CONTENT */
@@ -135,56 +132,13 @@ ul.styled{
 }
 
 ul.styled li{
-    border-top: solid 1px #e5e5e5;
-    padding: 14px 0px;
+    border-top: solid 1px #c5c4c4;
+    padding: 14px 0;
 }
 
-/* **************************************************************************** */
-/* Page                                                                         */
-/* **************************************************************************** */
-
-#page{
-    min-height: 400px;
-    padding: 20px;
-}
-
-#page h2{
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 18px;
-    color: #16a085;
-}
-
-/*  CONTENT  */
-
-#content{
-    float: left;
-    width: 70%;
-}
-
-/*  SIDEBAR  */
-
-#sidebar{
-    float: right;
-    width: 25%;
-}
-/* Lists  */
-
-ul.styled{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-ul.styled li{
-    border-top: solid 1px #e5e5e5;
-    padding: 14px 0px;
-}
-
-/* **************************************************************************** */
-/* Footer                                                                       */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Footer                                                        */
+/* ************************************************************* */
 
 #footer{
     width: 100%;
@@ -199,7 +153,7 @@ ul.styled li{
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #ffffff;
+    color: white;
 }
 
 #footer p{
@@ -225,18 +179,18 @@ ul.styled li{
 #box3{
     float: right;
     width: 30%;
-    padding-left: 30px;
+    padding-right: 30px;
 }
 
-/* **************************************************************************** */
-/* copyright                                                                    */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Copyright                                                     */
+/* ************************************************************* */
 
 #copyright{
     width: 100%;
     height: 130px;
     text-align: center;
-    background-color: #16a085;
+    background-color: green;
     padding-top: 55px;
     clear: both;
 }
@@ -245,24 +199,31 @@ ul.styled li{
     font-size: 12px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: white;
 }
 
-/* **************************************************************************** */
-/* gallery                                                                      */
-/* **************************************************************************** */
+/* ************************************************************* */
+/* Footer                                                        */
+/* ************************************************************* */
 
-#gallery img{
+#gallery img {
     width: 120px;
     margin: 12px;
-    
     -moz-transition: -moz-transform 0.5s ease-in;
-    -webkit-transition: -webkit-transform 0.5s ease-in;
-    -o-transition: -o-transform 0.5s ease-in;
-    
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
 }
-#gallery img:hover{
+
+#gallery img:hover {
     -moz-transform: scale(3);
-    -webkit-transform: scale(3);
-    -o-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);  
 }
+
+
+
+
+
+
+
+
